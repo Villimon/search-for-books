@@ -1,0 +1,73 @@
+.header {
+    width: 100%;
+    background: #333333;
+    min-height: 300px;
+    color: #fff;
+
+    &__body {
+        max-width: 600px;
+        margin: 0 auto;
+        padding: 40px 10px;
+    }
+
+    &__title {
+        font-size: 48px;
+        text-align: center;
+        font-weight: 800;
+        margin-bottom: 30px;
+    }
+
+    &__search {
+        display: flex;
+        margin-bottom: 30px;
+    }
+
+    &__input {
+        width: 70%;
+        height: 40px;
+        margin: 0 auto;
+        display: flex;
+        padding: 0 15px;
+        font-size: 20px;
+    }
+
+    &__btn {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 40px;
+        width: 30%;
+        background-color: #66C05D;
+        font-size: 18px;
+        color: #fff;
+    }
+
+    &__selects {
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+    }
+
+    &__block {
+        display: flex;
+    }
+
+    &__lable {
+        margin-right: 10px;
+        font-size: 18px;
+        display: flex;
+        align-items: center;
+    }
+
+    &__select {
+        width: 120px;
+        font-size: 18px;
+        padding-right: 10px;
+        height: 30px;
+        margin-bottom: 10px;
+
+        option {
+            background-color: #ccc;
+        }
+    }
+}

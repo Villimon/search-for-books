@@ -1,0 +1,26 @@
+@import '../styles/null.scss';
+@import '../styles/header.scss';
+@import '../styles/books.scss';
+@import '../styles/book.scss';
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap');
+
+
+//<Шрифт по умолчанию>===========================>
+$fontFamaly: "Inter", sans-serif;
+$fontSize: "16px";
+//</Шрифт по умолчанию>===========================>
+
+
+body {
+    font-family: $fontFamaly;
+    font-size: $fontSize;
+}
+
+.wrapper {
+    width: 100%;
+    min-height: 100%;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+}
