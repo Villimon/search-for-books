@@ -3,9 +3,9 @@ import { useSelector } from 'react-redux';
 import { AnyAction } from 'redux';
 import { getMoreBooks } from '../../redux/books-reducer';
 import { AppStateType } from '../../redux/store';
+import BooksItem from '../Books/BooksItem';
 
 import Preloader from '../Common/preloader/Preloader';
-import BooksItem from './BooksItem';
 
 
 

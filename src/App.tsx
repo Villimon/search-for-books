@@ -1,11 +1,12 @@
-import Book from './components/Book/Book';
-import Books from './components/Books/Books';
-import Header from './components/header/Header';
+import Books from './components/Page/Books';
+import Book from './components/Page/Book';
+import Header from './components/Header/Header';
 
 import './styles/styles.scss'
 
 import { BrowserRouter } from "react-router-dom";
 import { Navigate, Route, Routes } from "react-router-dom";
+
 
 
 function App() {
